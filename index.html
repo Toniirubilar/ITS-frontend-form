@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITS - Frontend - Form</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <form autocomplete="off">
+        <div class="img-container">
+            <img src="./assets/img/kumara_logo2.png" alt="">
+        </div>
+
+        <input type="text" id="nombre" placeholder="Nombre Completo"><br>
+        <br>
+
+        <input type="email" id="email" placeholder="Email"><br>
+        <br>
+
+        <textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea><br>
+        <br>
+
+        <select id="pais" name="pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Venezuela</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Chile">Chile</option>
+            <option value="España">México</option>
+            <option value="Otro">Colombia</option>
+        </select><br>
+        <br>
+
+        <button type="button" onclick="enviarDatos()">Enviar</button>
+</form>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
